@@ -1,0 +1,10 @@
+language: cpp
+fprocess: /handler
+build_options:
+  - name: dev
+    packages:
+      - g++
+welcome_message:
+    You just created a serverless Cpp function!
+    Feel free to add your own functions on function/manager.cpp file.
+    Don't forget to update Dockerfile if you add new Cpp files. Enjoy!
